@@ -1,0 +1,163 @@
+
+#h1 {
+    color: #1c4980;
+    padding-top: 0%;
+
+}
+
+.photo {
+    height: 230px;
+}
+
+#line {
+    color: red;
+}
+
+#mr {
+    color: #1c4980;
+}
+.navbar{
+    background-color:white;
+    margin-right: 300px;
+}
+.navbar-brand{
+    font-family: 'Rubik', sans-serif;
+    margin:3px;
+    float: left;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    font-family: 'sono','sans-serif';
+    float:left;
+    color: rgb(10,76,175);
+    list-style: none;
+    padding:10px;
+}
+.navbar li a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: rgb(14, 75, 166);
+}
+.navbar li a:hover{
+    color:rgba(117, 106, 67, 0.449);
+}
+.search{
+    float: right;
+    color: rgba(220, 214, 289, 0.974);
+    margin-left: 40px;
+    position:absolute;
+}
+.navbar input{
+    margin-left: 984px;
+    margin-top: 1px;
+    position: absolute;
+    border:none;
+}
+.navbar input:visited{
+    border: none;
+}
+.navbar input:hover{
+    border: none;
+}
+.box{
+    margin-top: 6px;
+    position: absolute;
+    margin-left: 941px;
+    width: 200px;
+    height: 3px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid rgb(10,76,175);
+}
+.a9{
+    background-color:rgb(56, 127, 233);
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 1300px;
+    margin-top: -65px;
+}
+.a9:hover{
+    border: 3px solid rgb(10,76,175);
+}
+
+.a10{
+    background-color: rgb(56, 127, 233);
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 1407px;
+    margin-top: -65px;
+    cursor: pointer;
+}
+.a10:hover{
+    border: 3px solidrgb(10,76,175);
+    
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 210px;
+    position: absolute;
+    margin-left: 821px;
+    margin-top: -680px;
+    }
+#a7 {
+    border-radius: 10%;
+    border-style: none;
+    height: 5%;
+    width: 5%;
+    right: 80px;
+    top: 150px;
+    margin-top: 0px;
+    margin-bottom: -133px;
+    margin-left: 118px;
+    margin-right:0px ;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    margin-left: 55px;
+    color: rgb(10, 76, 175);
+    margin-bottom: 260px;
+    margin-right: 400px;
+}
+.connect{
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+    font-size: 24px;
+    color: rgb(10, 76, 175);
+}
+#industry{
+    align-content: center;
+}
+.company{
+    margin-bottom: 33px;
+    align-self:flex-start;
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 40px;
+grid-row-gap: 0px;
+}
+
+
+
+       
+
